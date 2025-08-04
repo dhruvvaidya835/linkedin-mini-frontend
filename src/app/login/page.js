@@ -9,7 +9,7 @@ export default function LoginPage() {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    const res = await fetch('https://server-2-o4w0.onrender.com', {
+    const res = await fetch('https://server-3-v318.onrender.com', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify(formData),
